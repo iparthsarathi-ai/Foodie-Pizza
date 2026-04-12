@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Foodie Pizza | Pizza Cafe in Sarojini Nagar, Lucknow</title>
+  <meta name="description" content="Foodie Pizza — your neighbourhood pizza cafe in Sarojini Nagar, Lucknow. Veg pizzas, combos, pastas, shakes, mojitos & more. Order now on WhatsApp: 8176929294" />
+  <meta name="keywords" content="Foodie Pizza Lucknow, pizza cafe Sarojini Nagar, veg pizza Lucknow, pizza near me Lucknow, pizza Gauri Bazar" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Foodie Pizza | Pizza Cafe in Sarojini Nagar, Lucknow" />
+  <meta property="og:description" content="Veg pizzas, combos, pastas, shakes, mojitos & more. Order on WhatsApp!" />
+  <meta property="og:type" content="restaurant.restaurant" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=1200" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍕</text></svg>" />
+</head>
+
+<body>
+
+<!-- ═══════════════════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════════════════ -->
+<nav id="main-nav" role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+
+    <a href="#" class="nav-brand" aria-label="Foodie Pizza Home">
+      <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="14" cy="14" r="13" fill="#b7102a"/>
+        <path d="M7 14C7 10.134 10.134 7 14 7s7 3.134 7 7c0 .414-.046.817-.133 1.205C20.453 14.807 19.74 15 19 15c-2.21 0-4-1.79-4-4a3.98 3.98 0 0 0-1-2.646A7.003 7.003 0 0 0 7 14Z" fill="#ffab69"/>
+        <circle cx="11" cy="17" r="1.5" fill="#fff"/>
+        <circle cx="16" cy="19" r="1" fill="#fff"/>
+        <circle cx="14" cy="14" r="1" fill="#fff"/>
+      </svg>
+      Foodie Pizza
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#menu"    class="active" id="nav-menu">Menu</a></li>
+      <li><a href="#about"   id="nav-about">About</a></li>
+      <li><a href="#contact" id="nav-contact">Location</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <button id="hamburger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Mobile overlay -->
+<div id="mobile-overlay" aria-hidden="true"></div>
+
+<!-- Mobile menu -->
+<div id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <div class="mobile-menu-header">
+    <span class="nav-brand" style="font-size:1.1rem;">🍕 Foodie Pizza</span>
+    <button id="mobile-menu-close" aria-label="Close menu">
+      <span class="material-symbols-outlined" style="font-size:1.75rem;">close</span>
+    </button>
+  </div>
+  <ul class="mobile-nav-links" role="list">
+    <li><a href="#menu"><span class="material-symbols-outlined">restaurant_menu</span> Menu</a></li>
+    <li><a href="#about"><span class="material-symbols-outlined">storefront</span> About</a></li>
+    <li><a href="#contact"><span class="material-symbols-outlined">location_on</span> Location</a></li>
+    <li><a href="tel:8176929294"><span class="material-symbols-outlined">call</span> Call Us</a></li>
+  </ul>
+  <a href="https://wa.me/918176929294" class="mobile-wa-btn" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.417-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.305 1.652zm6.599-3.835c1.516.899 3.3 1.374 5.24 1.375 5.417 0 9.825-4.409 9.828-9.828.001-2.625-1.022-5.093-2.881-6.953-1.859-1.86-4.327-2.883-6.953-2.883-5.417 0-9.825 4.409-9.828 9.828-.001 1.83.5 3.618 1.448 5.174l-1.011 3.692 3.784-.993zm11.383-7.533c-.301-.15-1.781-.879-2.057-.979-.275-.1-.475-.15-.675.15-.2.3-.775 1.05-.95 1.25-.175.2-.35.225-.65.075-.3-.15-1.265-.467-2.41-1.487-.89-.793-1.49-1.773-1.665-2.074-.175-.3-.019-.462.13-.611.135-.135.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.493-.51-.675-.519-.175-.009-.375-.01-.575-.01-.2 0-.525.075-.8.375-.275.3-1.05 1.025-1.05 2.5 0 1.475 1.075 2.899 1.225 3.1.15.2 2.116 3.23 5.125 4.527.715.308 1.274.492 1.709.631.718.228 1.371.196 1.887.119.575-.085 1.781-.727 2.031-1.428.25-.7.25-1.3.175-1.428-.075-.125-.275-.2-.575-.35z"/>
+    </svg>
+    Chat on WhatsApp
+  </a>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════════════ -->
+<section id="hero" aria-label="Hero section">
+  <div class="hero-bg" role="img" aria-label="Pizza being baked"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      🌿 100% Vegetarian &nbsp;·&nbsp; Lucknow's Own Pizza
+    </div>
+
+    <h1 class="hero-title">
+      Baking <span>Happiness</span><br>Daily.
+    </h1>
+
+    <p class="hero-subtitle">
+      Your neighbourhood pizza café in Sarojini Nagar, Lucknow —
+      pizzas, pastas, shakes &amp; more, freshly made to order.
+    </p>
+
+    <div class="hero-cta-group">
+      <a href="#menu" class="btn-primary" id="hero-explore-menu">
+        Explore Menu
+        <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+      </a>
+      <a href="https://wa.me/918176929294" class="btn-ghost" target="_blank" rel="noopener noreferrer" id="hero-whatsapp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.417-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.305 1.652zm6.599-3.835c1.516.899 3.3 1.374 5.24 1.375 5.417 0 9.825-4.409 9.828-9.828.001-2.625-1.022-5.093-2.881-6.953-1.859-1.86-4.327-2.883-6.953-2.883-5.417 0-9.825 4.409-9.828 9.828-.001 1.83.5 3.618 1.448 5.174l-1.011 3.692 3.784-.993zm11.383-7.533c-.301-.15-1.781-.879-2.057-.979-.275-.1-.475-.15-.675.15-.2.3-.775 1.05-.95 1.25-.175.2-.35.225-.65.075-.3-.15-1.265-.467-2.41-1.487-.89-.793-1.49-1.773-1.665-2.074-.175-.3-.019-.462.13-.611.135-.135.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.493-.51-.675-.519-.175-.009-.375-.01-.575-.01-.2 0-.525.075-.8.375-.275.3-1.05 1.025-1.05 2.5 0 1.475 1.075 2.899 1.225 3.1.15.2 2.116 3.23 5.125 4.527.715.308 1.274.492 1.709.631.718.228 1.371.196 1.887.119.575-.085 1.781-.727 2.031-1.428.25-.7.25-1.3.175-1.428-.075-.125-.275-.2-.575-.35z"/>
+        </svg>
+        Order on WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <!-- Factual stats only -->
+  <div class="hero-stats" aria-label="Key info">
+    <div class="hero-stat">
+      <div class="hero-stat-num">100%</div>
+      <div class="hero-stat-label">Vegetarian</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">7 Days</div>
+      <div class="hero-stat-label">Open Every Day</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-num">10AM–11PM</div>
+      <div class="hero-stat-label">Today's Hours</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     FILTER BAR
+═══════════════════════════════════════════════════ -->
+<div id="filter-bar" role="region" aria-label="Menu category filters">
+  <div class="filter-inner">
+    <div class="filter-chips" role="group" aria-label="Filter by category">
+      <button class="filter-btn active" data-category="all"    id="filter-all"    aria-pressed="true" >All</button>
+      <button class="filter-btn"        data-category="pizza"  id="filter-pizza"  aria-pressed="false">🍕 Pizza</button>
+      <button class="filter-btn"        data-category="combo"  id="filter-combo"  aria-pressed="false">🎁 Combos</button>
+      <button class="filter-btn"        data-category="snacks" id="filter-snacks" aria-pressed="false">🍟 Snacks</button>
+      <button class="filter-btn"        data-category="pasta"  id="filter-pasta"  aria-pressed="false">🍝 Pasta</button>
+      <button class="filter-btn"        data-category="drinks" id="filter-drinks" aria-pressed="false">🥤 Drinks</button>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════
+     MENU
+═══════════════════════════════════════════════════ -->
+<main id="menu" aria-label="Menu">
+  <div class="section-header">
+    <div>
+      <span class="section-label">Our Menu</span>
+      <h2 class="section-title">Crafted Fresh to Order</h2>
+    </div>
+    <p class="section-subtitle">
+      🌿 All items are 100% vegetarian. Pizza sizes: S / M / L.
+    </p>
+  </div>
+
+  <div id="menu-grid" role="list" aria-label="Menu items"></div>
+</main>
+
+
+<!-- ═══════════════════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════════════════ -->
+<section id="about" aria-labelledby="about-heading">
+  <div class="about-inner">
+
+    <div class="about-image-stack">
+      <img
+        src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=1000"
+        alt="Foodie Pizza cafe interior"
+        class="about-img-main"
+        loading="lazy"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=600"
+        alt="Fresh pizza being prepared"
+        class="about-img-accent"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="about-content">
+      <div>
+        <span class="section-label">About Us</span>
+        <h2 class="section-title" id="about-heading">Your Local Pizza<br>Café in Lucknow</h2>
+      </div>
+
+      <p>
+        Foodie Pizza is your go-to neighbourhood pizza café, located in Sarojini Nagar, Lucknow.
+        We serve a wide variety of freshly made vegetarian pizzas in three sizes, along with
+        combos, pasta, garlic bread, burgers, shakes, mojitos and more.
+      </p>
+      <p>
+        Everything on our menu is 100% vegetarian. Place your order directly on WhatsApp
+        or give us a call — we'll have it ready for you.
+      </p>
+
+      <div class="about-features">
+        <div class="about-feature">
+          <div class="feature-icon">🌿</div>
+          <div class="feature-label">100% Vegetarian</div>
+          <div class="feature-value">Every item on the menu</div>
+        </div>
+        <div class="about-feature">
+          <div class="feature-icon">🍕</div>
+          <div class="feature-label">3 Pizza Sizes</div>
+          <div class="feature-value">Small · Medium · Large</div>
+        </div>
+        <div class="about-feature">
+          <div class="feature-icon">📅</div>
+          <div class="feature-label">Open 7 Days</div>
+          <div class="feature-value">10:00 AM – 11:00 PM</div>
+        </div>
+        <div class="about-feature">
+          <div class="feature-icon">💬</div>
+          <div class="feature-label">WhatsApp Orders</div>
+          <div class="feature-value">81769 29294</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     LOCATION & CONTACT
+═══════════════════════════════════════════════════ -->
+<section id="contact" aria-labelledby="contact-heading">
+  <div class="container">
+    <div style="margin-bottom:2.5rem;">
+      <span class="section-label">Find Us</span>
+      <h2 class="section-title" id="contact-heading">We're in Sarojini Nagar, Lucknow</h2>
+    </div>
+  </div>
+
+  <div class="contact-inner container">
+
+    <!-- Left: Info -->
+    <div class="contact-info">
+
+      <!-- Store image -->
+      <div class="store-img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1000"
+          alt="Foodie Pizza cafe"
+          class="store-img"
+          loading="lazy"
+        />
+        <div class="store-img-overlay">
+          <span class="store-img-label">Foodie Pizza</span>
+        </div>
+      </div>
+
+      <!-- Hours -->
+      <div class="hours-card">
+        <div class="hours-heading">
+          <span class="material-symbols-outlined" aria-hidden="true">schedule</span>
+          Opening Hours
+        </div>
+        <div class="hours-grid">
+          <div class="hours-item">
+            <p>Monday</p>
+            <p>10:00 AM – 11:00 PM</p>
+          </div>
+          <div class="hours-item">
+            <p>Tuesday</p>
+            <p>10:00 AM – 11:00 PM</p>
+          </div>
+          <div class="hours-item">
+            <p>Wednesday</p>
+            <p>10:00 AM – 11:00 PM</p>
+          </div>
+          <div class="hours-item">
+            <p>Thursday</p>
+            <p>10:00 AM – 11:00 PM</p>
+          </div>
+          <div class="hours-item">
+            <p>Friday</p>
+            <p>10:00 AM – 11:00 PM</p>
+          </div>
+          <div class="hours-item">
+            <p>Saturday</p>
+            <p>10:00 AM – 11:00 PM</p>
+          </div>
+          <div class="hours-item">
+            <p>Sunday</p>
+            <p>10:00 AM – 11:00 PM</p>
+          </div>
+          <div class="hours-item">
+            <p style="color:var(--tertiary);font-weight:700;">Open All 7 Days 🎉</p>
+            <p>No holidays listed</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Address & CTAs -->
+      <div>
+        <address style="font-style:normal; margin-bottom:1.25rem; color:var(--on-surface-variant); font-size:0.95rem; line-height:1.8;">
+          <strong style="color:var(--on-surface); font-size:1rem; display:block; margin-bottom:0.25rem;">
+            📍 Foodie Pizza
+          </strong>
+          Opposite Heeralal Yadav Degree College,<br>
+          Kanpur – Lucknow Rd, Gauri Bazar,<br>
+          Sarojini Nagar, Lucknow,<br>
+          Uttar Pradesh – 226008
+        </address>
+
+        <div class="contact-cta">
+          <a
+            href="https://wa.me/918176929294?text=Hi%20Foodie%20Pizza!%20I%20have%20an%20inquiry."
+            class="btn-whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            id="contact-whatsapp-btn"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.417-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.305 1.652zm6.599-3.835c1.516.899 3.3 1.374 5.24 1.375 5.417 0 9.825-4.409 9.828-9.828.001-2.625-1.022-5.093-2.881-6.953-1.859-1.86-4.327-2.883-6.953-2.883-5.417 0-9.825 4.409-9.828 9.828-.001 1.83.5 3.618 1.448 5.174l-1.011 3.692 3.784-.993zm11.383-7.533c-.301-.15-1.781-.879-2.057-.979-.275-.1-.475-.15-.675.15-.2.3-.775 1.05-.95 1.25-.175.2-.35.225-.65.075-.3-.15-1.265-.467-2.41-1.487-.89-.793-1.49-1.773-1.665-2.074-.175-.3-.019-.462.13-.611.135-.135.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.493-.51-.675-.519-.175-.009-.375-.01-.575-.01-.2 0-.525.075-.8.375-.275.3-1.05 1.025-1.05 2.5 0 1.475 1.075 2.899 1.225 3.1.15.2 2.116 3.23 5.125 4.527.715.308 1.274.492 1.709.631.718.228 1.371.196 1.887.119.575-.085 1.781-.727 2.031-1.428.25-.7.25-1.3.175-1.428-.075-.125-.275-.2-.575-.35z"/>
+            </svg>
+            Message on WhatsApp
+          </a>
+          <a href="tel:8176929294" class="btn-call" id="contact-call-btn">
+            <span class="material-symbols-outlined" aria-hidden="true">call</span>
+            81769 29294
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Right: Map — Sarojini Nagar, Lucknow -->
+    <div class="map-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.0543244082946!2d80.92895957496946!3d26.822048976760645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd0a4fa8f44d%3A0x4b46cbbfb4f5f935!2sSarojini%20Nagar%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1712900000000!5m2!1sen!2sin"
+        title="Foodie Pizza location — Sarojini Nagar, Lucknow"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        aria-label="Google Maps — Sarojini Nagar, Lucknow"
+      ></iframe>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-top">
+
+      <div>
+        <div class="footer-brand-name">🍕 Foodie Pizza</div>
+        <p class="footer-tagline">
+          Your neighbourhood vegetarian pizza café in Sarojini Nagar, Lucknow.<br>
+          Open every day, 10 AM – 11 PM.
+        </p>
+        <div class="footer-social" aria-label="Social media links">
+          <a href="#" aria-label="Instagram" title="Instagram">📸</a>
+          <a href="#" aria-label="Facebook"  title="Facebook">📘</a>
+          <a href="https://zomato.com" aria-label="Zomato" title="Zomato" target="_blank" rel="noopener">🍽️</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Location</a></li>
+          <li><a href="https://wa.me/918176929294" target="_blank" rel="noopener noreferrer">WhatsApp Order</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:8176929294">📞 81769 29294</a></li>
+          <li><a href="https://wa.me/918176929294" target="_blank" rel="noopener">💬 WhatsApp</a></li>
+          <li style="color:rgba(255,255,255,0.55); font-size:0.85rem; list-style:none; padding-top:0.25rem;">
+            Sarojini Nagar, Lucknow<br>UP – 226008
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <p style="font-size:0.85rem; line-height:1.9; color:rgba(255,255,255,0.65);">
+          Monday – Sunday<br>
+          <strong style="color:#fff;">10:00 AM – 11:00 PM</strong><br>
+          Open all 7 days 🎉
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 Foodie Pizza, Lucknow. All rights reserved.</p>
+      <p>
+        <a href="tel:8176929294">81769 29294</a> ·
+        <a href="#contact">Find Us</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════════════
+     WHATSAPP FAB
+═══════════════════════════════════════════════════ -->
+<a
+  id="whatsapp-fab"
+  href="https://wa.me/918176929294?text=Hi%20Foodie%20Pizza!%20I%20would%20like%20to%20place%20an%20order."
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Order on WhatsApp"
+  title="Order via WhatsApp — 81769 29294"
+>
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.417-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.305 1.652zm6.599-3.835c1.516.899 3.3 1.374 5.24 1.375 5.417 0 9.825-4.409 9.828-9.828.001-2.625-1.022-5.093-2.881-6.953-1.859-1.86-4.327-2.883-6.953-2.883-5.417 0-9.825 4.409-9.828 9.828-.001 1.83.5 3.618 1.448 5.174l-1.011 3.692 3.784-.993zm11.383-7.533c-.301-.15-1.781-.879-2.057-.979-.275-.1-.475-.15-.675.15-.2.3-.775 1.05-.95 1.25-.175.2-.35.225-.65.075-.3-.15-1.265-.467-2.41-1.487-.89-.793-1.49-1.773-1.665-2.074-.175-.3-.019-.462.13-.611.135-.135.3-.35.45-.525.15-.175.2-.3.3-.5.1-.2.05-.375-.025-.525-.075-.15-.675-1.625-.925-2.225-.244-.589-.493-.51-.675-.519-.175-.009-.375-.01-.575-.01-.2 0-.525.075-.8.375-.275.3-1.05 1.025-1.05 2.5 0 1.475 1.075 2.899 1.225 3.1.15.2 2.116 3.23 5.125 4.527.715.308 1.274.492 1.709.631.718.228 1.371.196 1.887.119.575-.085 1.781-.727 2.031-1.428.25-.7.25-1.3.175-1.428-.075-.125-.275-.2-.575-.35z"/>
+  </svg>
+</a>
+
+
+<!-- Scripts -->
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
