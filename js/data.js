@@ -463,7 +463,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Creamy banana shake.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Pi%C3%B1a_Colada.jpg",
+    image: "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Banana Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -499,7 +499,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Sweet & tangy pineapple shake.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/97/Tequila_Sunrise_%285084102035%29.jpg",
+    image: "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pineapple Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -527,7 +527,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Fresh watermelon mojito.",
-    image: "https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1560508180-03f285f67ded?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Watermelon Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -551,7 +551,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Zesty orange mojito.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/4/44/Harvey_Wallbanger.jpg",
+    image: "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Orange Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -563,7 +563,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Strawberry & mint mojito.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Shirley_Temple_cocktail.jpg",
+    image: "https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Strawberry Mint Mojito",
     isVeg: true,
     tag: "MOJITO"
