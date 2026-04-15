@@ -246,7 +246,7 @@ const menuData = [
     hasSizes: false,
     price: 79,
     description: "Crispy garlic-buttered bread sticks.",
-    image: "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Garlic Bread",
     isVeg: true
   },
@@ -467,7 +467,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Creamy banana shake.",
-    image: "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1589118949245-7d38baf380d6?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Banana Milkshake",
     isVeg: true,
     tag: "SHAKE"
@@ -555,7 +555,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Zesty orange mojito.",
-    image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1560508180-03f285f67ded?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Orange Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -623,7 +623,7 @@ const menuData = [
     hasSizes: false,
     price: 20,
     description: "Chilled soft drink can.",
-    image: "https://images.unsplash.com/photo-1581636625402-29b2a704ef13?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Cold Soft Drink Can",
     isVeg: true,
     tag: "COLD DRINK"
