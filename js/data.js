@@ -31,7 +31,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 110, M: 140, L: 170 },
     description: "Fresh tomatoes with double cheese on a crispy base.",
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1604917877934-07d8d248d396?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Tomato and Cheese Pizza",
     isVeg: true
   },
@@ -53,7 +53,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 110, M: 140, L: 170 },
     description: "Colourful capsicum with melted cheese on tomato sauce.",
-    image: "https://images.unsplash.com/photo-1555072956-7758afb20e8f?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Capsicum and Cheese Pizza",
     isVeg: true
   },
@@ -76,7 +76,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Fresh seasonal vegetables on a herbed tomato base.",
-    image: "https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pizza Veggie Fresh",
     isVeg: true
   },
@@ -87,7 +87,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Desi twist with paneer, onion, green chilli.",
-    image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Indian Pizza",
     isVeg: true
   },
@@ -98,7 +98,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Loaded veggie crush with bell peppers & sweet corn.",
-    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Crush Veggie Pizza",
     isVeg: true
   },
@@ -121,7 +121,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 160, M: 260, L: 380 },
     description: "Spiced paneer cubes with green chilli & herbs.",
-    image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1555072956-7758afb20e8f?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Spicy Paneer Pizza",
     isVeg: true,
     tag: "SPICY 🌶"
@@ -156,7 +156,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Unique pasta-topped pizza with creamy sauce.",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pasta Pizza",
     isVeg: true
   },
@@ -167,7 +167,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Fiery veggie combination for spice lovers.",
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Spicy Veggie Pizza",
     isVeg: true,
     tag: "SPICY 🌶"
@@ -179,7 +179,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Tandoori-marinated paneer with onions & capsicum.",
-    image: "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Tandoor Paneer Pizza",
     isVeg: true,
     tag: "CHEF'S PICK"
@@ -191,7 +191,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Classic loaded combination — the ultimate pizza.",
-    image: "https://images.unsplash.com/photo-1555072956-7758afb20e8f?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pizza Classical",
     isVeg: true
   },
@@ -206,7 +206,7 @@ const menuData = [
     hasSizes: false,
     price: 250,
     description: "1 Pizza + 1 Drink",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Combo Single",
     isVeg: true,
     tag: "DEAL"
@@ -218,7 +218,7 @@ const menuData = [
     hasSizes: false,
     price: 300,
     description: "2 Pizzas + 2 Drinks",
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Combo Double",
     isVeg: true,
     tag: "BEST VALUE"
@@ -230,7 +230,7 @@ const menuData = [
     hasSizes: false,
     price: 199,
     description: "Special small pizza combo — limited time offer!",
-    image: "https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Small Combo",
     isVeg: true,
     tag: "₹199 ONLY!"
@@ -257,7 +257,7 @@ const menuData = [
     hasSizes: false,
     price: 120,
     description: "4 pieces of garlic bread stuffed with melted cheese.",
-    image: "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1619531040576-f9416740661f?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Stuffed Cheese Garlic Bread",
     isVeg: true,
     tag: "4 PCS"
@@ -284,7 +284,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Cheese, sweet corn & veggies in a toasted sandwich.",
-    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Cheese Corn Sandwich",
     isVeg: true
   },
@@ -295,7 +295,7 @@ const menuData = [
     hasSizes: false,
     price: 89,
     description: "Chef's special generously loaded sandwich.",
-    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1567234669003-dce7a7a88821?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Chef Sandwich",
     isVeg: true
   },
@@ -306,7 +306,7 @@ const menuData = [
     hasSizes: false,
     price: 110,
     description: "Tandoori paneer filling in a grilled sandwich.",
-    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Tandoor Paneer Sandwich",
     isVeg: true
   },
@@ -332,7 +332,7 @@ const menuData = [
     hasSizes: false,
     price: 79,
     description: "Spiced paneer patty burger with fresh veggies.",
-    image: "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Paneer Burger",
     isVeg: true
   },
@@ -343,7 +343,7 @@ const menuData = [
     hasSizes: false,
     price: 99,
     description: "Double cheese slices with veggie patty.",
-    image: "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1586816001966-79b736744398?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Double Cheese Burger",
     isVeg: true,
     tag: "DOUBLE CHEESE"
@@ -359,7 +359,7 @@ const menuData = [
     hasSizes: false,
     price: 90,
     description: "Creamy white sauce pasta with herbs.",
-    image: "https://images.unsplash.com/photo-1551183053-bf91798d792f?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Italian White Pasta",
     isVeg: true
   },
@@ -381,7 +381,7 @@ const menuData = [
     hasSizes: false,
     price: 80,
     description: "Fiery spiced pasta for heat lovers.",
-    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Spicy Pasta",
     isVeg: true,
     tag: "SPICY 🌶"
@@ -393,7 +393,7 @@ const menuData = [
     hasSizes: false,
     price: 80,
     description: "Mixed veggie pasta in a signature sauce.",
-    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Pasta",
     isVeg: true
   },
@@ -419,7 +419,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Fresh & frothy strawberry shake.",
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Strawberry Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -431,7 +431,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Thick and creamy mango shake.",
-    image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Mango Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -443,7 +443,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Rich chocolate shake.",
-    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Chocolate Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -455,7 +455,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Sweet butterscotch flavoured shake.",
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Butter Scotch Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -467,7 +467,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Creamy banana shake.",
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Banana Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -479,7 +479,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Refreshing blueberry shake.",
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Blue Berry Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -491,7 +491,7 @@ const menuData = [
     hasSizes: false,
     price: 79,
     description: "Indulgent KitKat chocolate shake.",
-    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1562158079-e4b4edaebb05?auto=format&fit=crop&q=80&w=800",
     imageAlt: "KitKat Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -503,7 +503,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Sweet & tangy pineapple shake.",
-    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1490567674338-f6f39aba04e1?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pineapple Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -519,7 +519,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Chilled blue curacao mojito.",
-    image: "https://images.unsplash.com/photo-1543253687-c931c8e01820?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Blue Ice Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -531,7 +531,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Fresh watermelon mojito.",
-    image: "https://images.unsplash.com/photo-1543253687-c931c8e01820?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Watermelon Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -543,7 +543,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Refreshing pineapple & mint mojito.",
-    image: "https://images.unsplash.com/photo-1543253687-c931c8e01820?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pineapple Mint Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -555,7 +555,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Zesty orange mojito.",
-    image: "https://images.unsplash.com/photo-1543253687-c931c8e01820?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Orange Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -567,7 +567,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Strawberry & mint mojito.",
-    image: "https://images.unsplash.com/photo-1543253687-c931c8e01820?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1543013309-0d1f4edeb868?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Strawberry Mint Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -579,7 +579,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Classic clear mojito with lime & mint.",
-    image: "https://images.unsplash.com/photo-1543253687-c931c8e01820?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Transparent Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -607,7 +607,7 @@ const menuData = [
     hasSizes: false,
     price: 100,
     description: "Thick & creamy blended cold frappe.",
-    image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Cold Frappe Coffee",
     isVeg: true,
     tag: "COFFEE"
@@ -623,7 +623,7 @@ const menuData = [
     hasSizes: false,
     price: 20,
     description: "Chilled soft drink can.",
-    image: "https://images.unsplash.com/photo-1543253687-c931c8e01820?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1581636625402-29b2a704ef13?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Cold Drink",
     isVeg: true,
     tag: "COLD DRINK"
