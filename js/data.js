@@ -226,7 +226,7 @@ const menuData = [
     hasSizes: false,
     price: 199,
     description: "Special small pizza combo — limited time offer!",
-    image: " ",
+    image: "https://www.google.com/imgres?q=Special%20small%20pizza%20combo%20&imgurl=https%3A%2F%2Fb.zmtcdn.com%2Fdata%2Fdish_photos%2Fc8a%2F30775542ec107c1a5a09fc4ba8d36c8a.jpeg&imgrefurl=https%3A%2F%2Fwww.zomato.com%2Fbangalore%2Fpizza%4099-whitefield-bangalore%2Forder&docid=GMrou1l61Q99BM&tbnid=yAmWfsH_zvFQeM&vet=12ahUKEwivoqiOzfWTAxWSSGcHHTtrLZgQnPAOegQIHhAB..i&w=900&h=600&hcb=2&ved=2ahUKEwivoqiOzfWTAxWSSGcHHTtrLZgQnPAOegQIHhAB",
     imageAlt: "Small Pizza Combo",
     isVeg: true,
     tag: "₹199 ONLY!"
@@ -280,7 +280,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Cheese, sweet corn & veggies in a toasted sandwich.",
-    image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=80&w=800",
+    image: "https://www.google.com/imgres?q=Cheese%2C%20sweet%20corn%20%26%20veggies%20in%20a%20toasted%20sandwich.&imgurl=https%3A%2F%2Fwww.vegrecipesofindia.com%2Fwp-content%2Fuploads%2F2013%2F07%2Fcorn-sandwich-recipe-01a.jpg&imgrefurl=https%3A%2F%2Fwww.vegrecipesofindia.com%2Fcorn-sandwich%2F&docid=4iSr1s3vo_Am7M&tbnid=iHscZTOczbBrMM&vet=12ahUKEwj50ZXV0fWTAxUI2DgGHfaSMJ8QnPAOegQIGhAB..i&w=750&h=441&hcb=2&ved=2ahUKEwj50ZXV0fWTAxUI2DgGHfaSMJ8QnPAOegQIGhAB",
     imageAlt: "Veg Cheese Corn Sandwich",
     isVeg: true
   },
@@ -400,7 +400,7 @@ const menuData = [
     hasSizes: false,
     price: 80,
     description: "Soft paneer cubes in a flavourful pasta sauce.",
-    image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=80&w=800",
+    image: "https://www.google.com/imgres?q=Soft%20paneer%20cubes%20in%20a%20flavourful%20pasta%20sauce.&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2F71OTjegWDoY%2Fhq720.jpg%3Fsqp%3D-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD%26rs%3DAOn4CLAwpRlNytOvIjqhqEif9sWWxpQeEw&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D71OTjegWDoY&docid=7lEZzvvHHc8QlM&tbnid=fbo688vXbBnhhM&vet=12ahUKEwipsOX80vWTAxXjzDgGHf61K3EQnPAOegQIFxAB..i&w=686&h=386&hcb=2&ved=2ahUKEwipsOX80vWTAxXjzDgGHf61K3EQnPAOegQIFxAB",
     imageAlt: "Paneer Pasta",
     isVeg: true
   },
