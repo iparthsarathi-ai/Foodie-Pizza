@@ -619,7 +619,7 @@ const menuData = [
     hasSizes: false,
     price: 20,
     description: "Chilled soft drink can.",
-    image: "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.pinimg.com/1200x/8d/de/c1/8ddec1ae7c20e4ca2dd9899f47edb2b3.jpg",
     imageAlt: "Cold Soft Drink",
     isVeg: true,
     tag: "COLD DRINK"
