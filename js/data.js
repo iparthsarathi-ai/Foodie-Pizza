@@ -202,7 +202,7 @@ const menuData = [
     hasSizes: false,
     price: 250,
     description: "1 Pizza + 1 Drink",
-    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800",
+    image: " ",
     imageAlt: "Veg Combo Single",
     isVeg: true,
     tag: "DEAL"
@@ -214,7 +214,7 @@ const menuData = [
     hasSizes: false,
     price: 300,
     description: "2 Pizzas + 2 Drinks",
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800",
+    image: "  ",
     imageAlt: "Veg Combo Double",
     isVeg: true,
     tag: "BEST VALUE"
@@ -226,7 +226,7 @@ const menuData = [
     hasSizes: false,
     price: 199,
     description: "Special small pizza combo — limited time offer!",
-    image: "https://www.google.com/imgres?q=Special%20small%20pizza%20combo%20&imgurl=https%3A%2F%2Fb.zmtcdn.com%2Fdata%2Fdish_photos%2Fc8a%2F30775542ec107c1a5a09fc4ba8d36c8a.jpeg&imgrefurl=https%3A%2F%2Fwww.zomato.com%2Fbangalore%2Fpizza%4099-whitefield-bangalore%2Forder&docid=GMrou1l61Q99BM&tbnid=yAmWfsH_zvFQeM&vet=12ahUKEwivoqiOzfWTAxWSSGcHHTtrLZgQnPAOegQIHhAB..i&w=900&h=600&hcb=2&ved=2ahUKEwivoqiOzfWTAxWSSGcHHTtrLZgQnPAOegQIHhAB",
+    image: " ",
     imageAlt: "Small Pizza Combo",
     isVeg: true,
     tag: "₹199 ONLY!"
@@ -366,7 +366,7 @@ const menuData = [
     hasSizes: false,
     price: 80,
     description: "Classic red arrabbiata sauce pasta.",
-    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&q=80&w=800",
+    image: " ",
     imageAlt: "Red Sauce Pasta",
     isVeg: true
   },
@@ -389,7 +389,7 @@ const menuData = [
     hasSizes: false,
     price: 80,
     description: "Mixed veggie pasta in a signature sauce.",
-    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=800",
+    image: " ",
     imageAlt: "Veg Pasta",
     isVeg: true
   },
@@ -463,7 +463,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Creamy banana shake.",
-    image: "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&q=80&w=800",
+    image: " ",
     imageAlt: "Banana Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -475,7 +475,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Refreshing blueberry shake.",
-    image: "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&q=80&w=800",
+    image: " ",
     imageAlt: "Blueberry Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -619,7 +619,7 @@ const menuData = [
     hasSizes: false,
     price: 20,
     description: "Chilled soft drink can.",
-    image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&q=80&w=800",
+    image: " ",
     imageAlt: "Cold Soft Drink",
     isVeg: true,
     tag: "COLD DRINK"
