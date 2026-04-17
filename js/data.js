@@ -2,7 +2,7 @@
 // All images HTTP-tested and verified 200 OK before deployment.
 
 const WHATSAPP_NUMBER = "918176929294"; // 81769 29294
-const PHONE_NUMBER    = "8176929294";
+const PHONE_NUMBER = "8176929294";
 
 const menuData = [
 
