@@ -163,7 +163,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Fiery veggie combination for spice lovers.",
-    image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&q=80&w=800",
+    image: "https://www.twopeasandtheirpod.com/best-veggie-pizza/",
     imageAlt: "Spicy Veggie Pizza",
     isVeg: true,
     tag: "SPICY 🌶"
@@ -226,7 +226,7 @@ const menuData = [
     hasSizes: false,
     price: 199,
     description: "Special small pizza combo — limited time offer!",
-    image: "https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&q=80&w=800",
+    image: "https://www.google.com/imgres?q=Special%20small%20pizza%20combo%20&imgurl=https%3A%2F%2Fb.zmtcdn.com%2Fdata%2Fdish_photos%2Fc8a%2F30775542ec107c1a5a09fc4ba8d36c8a.jpeg&imgrefurl=https%3A%2F%2Fwww.zomato.com%2Fbangalore%2Fpizza%4099-whitefield-bangalore%2Forder&docid=GMrou1l61Q99BM&tbnid=yAmWfsH_zvFQeM&vet=12ahUKEwivoqiOzfWTAxWSSGcHHTtrLZgQnPAOegQIHhAB..i&w=900&h=600&hcb=2&ved=2ahUKEwivoqiOzfWTAxWSSGcHHTtrLZgQnPAOegQIHhAB",
     imageAlt: "Small Pizza Combo",
     isVeg: true,
     tag: "₹199 ONLY!"
