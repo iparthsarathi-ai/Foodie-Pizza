@@ -16,7 +16,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 100, M: 130, L: 160 },
     description: "Classic cheese pizza with our signature tomato base.",
-    image: "https://loremflickr.com/cache/resized/65535_54501294056_eea402a0b2_b_800_600_nofilter.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Pizza_Margherita_stu_spivack.jpg",
     imageAlt: "Cheese Margherita Pizza",
     isVeg: true
   },
@@ -27,7 +27,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 110, M: 140, L: 170 },
     description: "Fresh tomatoes with double cheese on a crispy base.",
-    image: "https://loremflickr.com/cache/resized/7668_17188259336_93539e7d1b_800_600_nofilter.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg",
     imageAlt: "Tomato Cheese Pizza",
     isVeg: true
   },
@@ -38,7 +38,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 110, M: 140, L: 170 },
     description: "Caramelised onions with generous cheese topping.",
-    image: "https://loremflickr.com/cache/resized/6228_6364073481_40df1ee458_b_800_600_nofilter.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/57/Neapolitan_pizza_at_Trappica_%2848701940197%29.jpg",
     imageAlt: "Onion Cheese Pizza",
     isVeg: true
   },
@@ -49,7 +49,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 110, M: 140, L: 170 },
     description: "Colourful capsicum with melted cheese on tomato sauce.",
-    image: "https://loremflickr.com/cache/resized/5130_5380033191_9f93195e1b_b_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Capsicum Cheese Pizza",
     isVeg: true
   },
@@ -60,7 +60,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Loaded with onion, capsicum, tomato & corn.",
-    image: "https://loremflickr.com/cache/resized/2679_4395351820_bc33680618_b_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Country House Pizza",
     isVeg: true,
     tag: "POPULAR"
@@ -72,7 +72,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Fresh seasonal vegetables on a herbed tomato base.",
-    image: "https://loremflickr.com/cache/resized/3046_2770207838_16597f37a6_c_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veggie Fresh Pizza",
     isVeg: true
   },
@@ -83,7 +83,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Desi twist with paneer, onion, green chilli.",
-    image: "https://loremflickr.com/cache/resized/2883_12150396976_a17e638cf6_h_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Indian Style Pizza",
     isVeg: true
   },
@@ -94,7 +94,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Loaded veggie crush with bell peppers & sweet corn.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1555072956-7758afb20e8f?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Crush Veggie Pizza",
     isVeg: true
   },
@@ -105,7 +105,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 160, M: 260, L: 380 },
     description: "Extra cheese loaded with multiple veggie toppings.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Loaded Cheese Pizza",
     isVeg: true,
     tag: "LOADED"
@@ -117,7 +117,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 160, M: 260, L: 380 },
     description: "Spiced paneer cubes with green chilli & herbs.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Spicy Paneer Pizza",
     isVeg: true,
     tag: "SPICY 🌶"
@@ -129,7 +129,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 160, M: 260, L: 380 },
     description: "Mexican-style with jalapenos, sweet corn & salsa.",
-    image: "https://loremflickr.com/cache/resized/7029_6640125321_ea76537faf_h_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1573821663912-569905455b1c?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Mexican Pizza",
     isVeg: true
   },
@@ -140,7 +140,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Premium deluxe topping combination.",
-    image: "https://loremflickr.com/cache/resized/3372_3240599868_938703da55_b_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1604917877934-07d8d248d396?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pizza Deluxe",
     isVeg: true,
     tag: "PREMIUM"
@@ -152,7 +152,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Unique pasta-topped pizza with creamy sauce.",
-    image: "https://loremflickr.com/cache/resized/65535_53892223850_feab5392bd_h_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pasta Pizza",
     isVeg: true
   },
@@ -163,7 +163,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Fiery veggie combination for spice lovers.",
-    image: "https://loremflickr.com/cache/resized/2203_2436355239_6bf04ca38d_h_800_600_nofilter.jpg",
+    image: "https://www.twopeasandtheirpod.com/best-veggie-pizza/",
     imageAlt: "Spicy Veggie Pizza",
     isVeg: true,
     tag: "SPICY 🌶"
@@ -175,7 +175,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Tandoori-marinated paneer with onions & capsicum.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Tandoor Paneer Pizza",
     isVeg: true,
     tag: "CHEF'S PICK"
@@ -187,7 +187,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 170, M: 330, L: 460 },
     description: "Classic loaded combination — the ultimate pizza.",
-    image: "https://loremflickr.com/cache/resized/3134_2416801656_fb5525945f_c_800_600_nofilter.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/43/Pizza_al_taglio.jpg",
     imageAlt: "Classical Pizza",
     isVeg: true
   },
@@ -202,7 +202,7 @@ const menuData = [
     hasSizes: false,
     price: 250,
     description: "1 Pizza + 1 Drink",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Combo Single",
     isVeg: true,
     tag: "DEAL"
@@ -214,7 +214,7 @@ const menuData = [
     hasSizes: false,
     price: 300,
     description: "2 Pizzas + 2 Drinks",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Combo Double",
     isVeg: true,
     tag: "BEST VALUE"
@@ -226,7 +226,7 @@ const menuData = [
     hasSizes: false,
     price: 199,
     description: "Special small pizza combo — limited time offer!",
-    image: "https://loremflickr.com/cache/resized/8334_8414089035_1b4a6648bc_h_800_600_nofilter.jpg",
+    image: "https://www.google.com/imgres?q=Special%20small%20pizza%20combo%20&imgurl=https%3A%2F%2Fb.zmtcdn.com%2Fdata%2Fdish_photos%2Fc8a%2F30775542ec107c1a5a09fc4ba8d36c8a.jpeg&imgrefurl=https%3A%2F%2Fwww.zomato.com%2Fbangalore%2Fpizza%4099-whitefield-bangalore%2Forder&docid=GMrou1l61Q99BM&tbnid=yAmWfsH_zvFQeM&vet=12ahUKEwivoqiOzfWTAxWSSGcHHTtrLZgQnPAOegQIHhAB..i&w=900&h=600&hcb=2&ved=2ahUKEwivoqiOzfWTAxWSSGcHHTtrLZgQnPAOegQIHhAB",
     imageAlt: "Small Pizza Combo",
     isVeg: true,
     tag: "₹199 ONLY!"
@@ -242,7 +242,7 @@ const menuData = [
     hasSizes: false,
     price: 79,
     description: "Crispy garlic-buttered bread sticks.",
-    image: "https://loremflickr.com/cache/resized/216_507654514_570d31e5f5_c_800_600_nofilter.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/59/Garlicbread.jpg",
     imageAlt: "Garlic Bread",
     isVeg: true
   },
@@ -253,7 +253,7 @@ const menuData = [
     hasSizes: false,
     price: 120,
     description: "4 pieces of garlic bread stuffed with melted cheese.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/bf/Focaccia_with_Crumb.jpg",
     imageAlt: "Stuffed Cheese Garlic Bread",
     isVeg: true,
     tag: "4 PCS"
@@ -269,7 +269,7 @@ const menuData = [
     hasSizes: false,
     price: 49,
     description: "Fresh vegetable sandwich with chutneys.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Sandwich",
     isVeg: true
   },
@@ -280,7 +280,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Cheese, sweet corn & veggies in a toasted sandwich.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Cheese Corn Sandwich",
     isVeg: true
   },
@@ -291,7 +291,7 @@ const menuData = [
     hasSizes: false,
     price: 89,
     description: "Chef's special generously loaded sandwich.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1567234669003-dce7a7a88821?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Chef Sandwich",
     isVeg: true
   },
@@ -302,7 +302,7 @@ const menuData = [
     hasSizes: false,
     price: 110,
     description: "Tandoori paneer filling in a grilled sandwich.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Tandoor Paneer Sandwich",
     isVeg: true
   },
@@ -317,7 +317,7 @@ const menuData = [
     hasSizes: false,
     price: 79,
     description: "Classic veggie patty burger with sauce & veggies.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Burger",
     isVeg: true
   },
@@ -328,7 +328,7 @@ const menuData = [
     hasSizes: false,
     price: 79,
     description: "Spiced paneer patty burger with fresh veggies.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Paneer Burger",
     isVeg: true
   },
@@ -339,7 +339,7 @@ const menuData = [
     hasSizes: false,
     price: 99,
     description: "Double cheese slices with veggie patty.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Double Cheese Burger",
     isVeg: true,
     tag: "DOUBLE CHEESE"
@@ -355,7 +355,7 @@ const menuData = [
     hasSizes: false,
     price: 90,
     description: "Creamy white sauce pasta with herbs.",
-    image: "https://loremflickr.com/cache/resized/2074_2043046023_9061a723a4_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&q=80&w=800",
     imageAlt: "White Sauce Pasta",
     isVeg: true
   },
@@ -366,7 +366,7 @@ const menuData = [
     hasSizes: false,
     price: 80,
     description: "Classic red arrabbiata sauce pasta.",
-    image: "https://loremflickr.com/cache/resized/8156_7665155446_4711dd2d1d_c_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Red Sauce Pasta",
     isVeg: true
   },
@@ -377,7 +377,7 @@ const menuData = [
     hasSizes: false,
     price: 80,
     description: "Fiery spiced pasta for heat lovers.",
-    image: "https://loremflickr.com/cache/resized/2572_3952644052_f0cf18445f_b_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Spicy Pasta",
     isVeg: true,
     tag: "SPICY 🌶"
@@ -389,7 +389,7 @@ const menuData = [
     hasSizes: false,
     price: 80,
     description: "Mixed veggie pasta in a signature sauce.",
-    image: "https://loremflickr.com/cache/resized/65535_53635720525_362527bf84_b_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Veg Pasta",
     isVeg: true
   },
@@ -400,7 +400,7 @@ const menuData = [
     hasSizes: false,
     price: 80,
     description: "Soft paneer cubes in a flavourful pasta sauce.",
-    image: "https://loremflickr.com/cache/resized/7460_12150142354_ca430d1504_b_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Paneer Pasta",
     isVeg: true
   },
@@ -415,7 +415,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Fresh & frothy strawberry shake.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Strawberry Milkshake",
     isVeg: true,
     tag: "SHAKE"
@@ -427,7 +427,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Thick and creamy mango shake.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1546173159-315724a31696?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Mango Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -439,7 +439,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Rich chocolate shake.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Chocolate Milkshake",
     isVeg: true,
     tag: "SHAKE"
@@ -451,7 +451,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Sweet butterscotch flavoured shake.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Butterscotch Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -463,7 +463,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Creamy banana shake.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Banana Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -475,7 +475,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Refreshing blueberry shake.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Blueberry Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -487,7 +487,7 @@ const menuData = [
     hasSizes: false,
     price: 79,
     description: "Indulgent KitKat chocolate shake.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&q=80&w=800",
     imageAlt: "KitKat Chocolate Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -499,7 +499,7 @@ const menuData = [
     hasSizes: false,
     price: 59,
     description: "Sweet & tangy pineapple shake.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pineapple Shake",
     isVeg: true,
     tag: "SHAKE"
@@ -515,7 +515,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Chilled blue curacao mojito.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Blue Ice Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -527,7 +527,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Fresh watermelon mojito.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1560508180-03f285f67ded?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Watermelon Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -539,7 +539,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Refreshing pineapple & mint mojito.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Pineapple Mint Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -551,7 +551,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Zesty orange mojito.",
-    image: "https://loremflickr.com/cache/resized/2094_2879198548_51dbc6dc23_h_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Orange Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -563,7 +563,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Strawberry & mint mojito.",
-    image: "https://loremflickr.com/cache/resized/4228_34575156483_da74499700_c_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Strawberry Mint Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -575,7 +575,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Classic clear mojito with lime & mint.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Clear Lime Mojito",
     isVeg: true,
     tag: "MOJITO"
@@ -591,7 +591,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Chilled cold coffee — smooth & refreshing.",
-    image: "https://loremflickr.com/cache/resized/2122_2157863728_e37cd56e12_b_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Cold Coffee",
     isVeg: true,
     tag: "COFFEE"
@@ -603,7 +603,7 @@ const menuData = [
     hasSizes: false,
     price: 100,
     description: "Thick & creamy blended cold frappe.",
-    image: "https://loremflickr.com/cache/resized/defaultImage.small_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Cold Frappe Coffee",
     isVeg: true,
     tag: "COFFEE"
@@ -619,7 +619,7 @@ const menuData = [
     hasSizes: false,
     price: 20,
     description: "Chilled soft drink can.",
-    image: "https://loremflickr.com/cache/resized/51_131888165_56760e4b0e_c_800_600_nofilter.jpg",
+    image: "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?auto=format&fit=crop&q=80&w=800",
     imageAlt: "Cold Soft Drink",
     isVeg: true,
     tag: "COLD DRINK"
