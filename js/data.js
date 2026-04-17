@@ -38,7 +38,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 110, M: 140, L: 170 },
     description: "Caramelised onions with generous cheese topping.",
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/57/Neapolitan_pizza_at_Trappica_%2848701940197%29.jpg",
+    image: "https://i.pinimg.com/1200x/7e/f2/fd/7ef2fd5a7d813e3ffab0d20ca5d1b11d.jpg",
     imageAlt: "Onion Cheese Pizza",
     isVeg: true
   },
@@ -49,7 +49,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 110, M: 140, L: 170 },
     description: "Colourful capsicum with melted cheese on tomato sauce.",
-    image: "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.pinimg.com/736x/88/51/07/885107bc8b44b9df7f416048ed810065.jpg",
     imageAlt: "Capsicum Cheese Pizza",
     isVeg: true
   },
@@ -60,7 +60,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Loaded with onion, capsicum, tomato & corn.",
-    image: "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.pinimg.com/736x/16/34/32/163432b46232b93ce59540114604516a.jpg",
     imageAlt: "Country House Pizza",
     isVeg: true,
     tag: "POPULAR"
@@ -72,7 +72,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Fresh seasonal vegetables on a herbed tomato base.",
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.pinimg.com/736x/95/9d/07/959d075f1d43263e53f1bbff0dee4baf.jpg",
     imageAlt: "Veggie Fresh Pizza",
     isVeg: true
   },
@@ -83,7 +83,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Desi twist with paneer, onion, green chilli.",
-    image: "https://images.unsplash.com/photo-1548369937-47519962c11a?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.pinimg.com/736x/76/f9/42/76f9427a221a5ed3635888f710ee72d2.jpg",
     imageAlt: "Indian Style Pizza",
     isVeg: true
   },
@@ -94,7 +94,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 130, M: 160, L: 260 },
     description: "Loaded veggie crush with bell peppers & sweet corn.",
-    image: "https://images.unsplash.com/photo-1555072956-7758afb20e8f?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.pinimg.com/1200x/1f/5d/61/1f5d6114b9f838e42014835e146c2f77.jpg",
     imageAlt: "Crush Veggie Pizza",
     isVeg: true
   },
@@ -105,7 +105,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 160, M: 260, L: 380 },
     description: "Extra cheese loaded with multiple veggie toppings.",
-    image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.pinimg.com/736x/8d/81/25/8d8125a03f2393f066a89832a9551d22.jpg",
     imageAlt: "Loaded Cheese Pizza",
     isVeg: true,
     tag: "LOADED"
@@ -117,7 +117,7 @@ const menuData = [
     hasSizes: true,
     sizes: { S: 160, M: 260, L: 380 },
     description: "Spiced paneer cubes with green chilli & herbs.",
-    image: "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.pinimg.com/736x/89/6a/b5/896ab511d008d04a163d1e0e63de9b21.jpg",
     imageAlt: "Spicy Paneer Pizza",
     isVeg: true,
     tag: "SPICY 🌶"
@@ -515,7 +515,7 @@ const menuData = [
     hasSizes: false,
     price: 69,
     description: "Chilled blue curacao mojito.",
-    image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=800",
+    image: "https://i.pinimg.com/736x/5e/de/91/5ede91fc1dee2cc4c6e0c52c3dfd71d2.jpg",
     imageAlt: "Blue Ice Mojito",
     isVeg: true,
     tag: "MOJITO"
